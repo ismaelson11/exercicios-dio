@@ -27,12 +27,12 @@ switch (placar) {
     console.log("ninguém ganhou");
 }*/
 
-let array = ['valor1' , 'valor2', 'valor3', 'valor4', 'valor5']
+let array = ["valor1", "valor2", "valor3", "valor4", "valor5"];
 let object = {
-  propriedade1: 'valor1',
-  propriedade2: 'valor2',
-  propriedade3: 'valor3'
-}
+  propriedade1: "valor1",
+  propriedade2: "valor2",
+  propriedade3: "valor3",
+};
 
 /*for(let i = 0; i < array.length; i++){
   console.log(i);
@@ -57,14 +57,14 @@ for(i  of object.propriedade1){
   console.log(i)
 }*/
 
-var a  = 0;
+var a = 0;
 
-while(a < 10){
+while (a < 10) {
   a++;
-  console.log(a)
+  console.log(a);
 }
 
-do{
-  a++
-  console.log(a)
-} while(a < 15)
+do {
+  a++;
+  console.log(a);
+} while (a < 15);
